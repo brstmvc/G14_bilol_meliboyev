@@ -1,0 +1,33 @@
+.footer{
+    max-width: 1440px;
+    margin: 100px 0 100px 0;
+    padding: 70px 100px;
+    background: var(--505050, #505050);
+    margin: 0 auto;
+
+    .conteiner__footer{
+        max-width: 1240px;
+        margin: 0 auto;
+        gap: 100px;
+
+        .footers{
+            display: flex;
+            align-items: center;
+            gap: 150px;
+
+            .footers__item{
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+
+                a{
+                    color: var(--White, #FFF);
+                    font-family: 'Work Sans', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 130%; 
+                }
+            }
+        }
+    }
+}
